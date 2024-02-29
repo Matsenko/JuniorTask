@@ -14,3 +14,12 @@ This project requires a connection to a SQL Server database. Follow the instruct
    "ConnectionStrings": {
        "DefaultConnection": "Data Source=YOUR_SERVER_NAME;Initial Catalog=YOUR_DATABASE_NAME;User ID=YOUR_USERNAME;Password=YOUR_PASSWORD;"
    }
+## Running Migrations
+1.Open a terminal or command prompt and navigate to the project directory.
+
+2.Run the following command to create a new migration:
+   ```csharp
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+
+ 
