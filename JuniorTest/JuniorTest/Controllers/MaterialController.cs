@@ -38,8 +38,8 @@ namespace JuniorTest.Controllers
             var result = await _materialService.DeleteMaterial(id);
             return Ok(result);
         }
-        [HttpGet("{name}")]
-        public async Task<ActionResult<List<Material>>> SearchMaterialsByName(string name)
+        [HttpGet]
+        public async Task<ActionResult<List<Material>>> SearchMaterialsByName([FromQuery] string name)
         {
             var materials = await _materialService.SearchMaterialsByName(name);
             return Ok(materials);

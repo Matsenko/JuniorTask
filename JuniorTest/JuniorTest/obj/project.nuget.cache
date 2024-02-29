@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUzjqKVNSGxQq1JxGIAcNl524mQvf0s6adZnMpLFasK98O+5vTNT55SoarX8WtkdBESyoIfVqh5dmtZoq6OfSg==",
+  "dgSpecHash": "qxhzz2Fy50dxHk1tpCGgXU9lmB6ncTc3IbmxfZARXtF6cnIDxe+TsX7nXggoTWHRyQT4RR9UH27Ei5x//rAHvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest\\JuniorTest.csproj",
+  "projectFilePath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest\\JuniorTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vovam\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vovam\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

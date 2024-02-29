@@ -13,19 +13,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = JuniorTest.Client
 build_property.RootNamespace = JuniorTest.Client
-build_property.ProjectDir = C:\Users\vovam\source\repos\JuniorTest\JuniorTest\JuniorTest.Client\
+build_property.ProjectDir = C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest\JuniorTest.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vovam\source\repos\JuniorTest\JuniorTest\JuniorTest.Client
+build_property.MSBuildProjectDirectory = C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest\JuniorTest.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest.Client/Pages/EditMaterial.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest.Client/Pages/EditMaterial.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE1hdGVyaWFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest.Client/_Imports.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

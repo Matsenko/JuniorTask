@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj": {}
+    "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\JuniorTest.Shared.csproj": {
+    "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\JuniorTest.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\JuniorTest.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\JuniorTest.Shared.csproj",
         "projectName": "JuniorTest.Shared",
-        "projectPath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\JuniorTest.Shared.csproj",
+        "projectPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\JuniorTest.Shared.csproj",
         "packagesPath": "C:\\Users\\vovam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\obj\\",
+        "outputPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj": {
+    "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
+        "projectUniqueName": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
         "projectName": "JuniorTest.Client",
-        "projectPath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
+        "projectPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
         "packagesPath": "C:\\Users\\vovam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\obj\\",
+        "outputPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\JuniorTest.Shared.csproj": {
-                "projectPath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest.Shared\\JuniorTest.Shared.csproj"
+              "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\JuniorTest.Shared.csproj": {
+                "projectPath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest.Shared\\JuniorTest.Shared.csproj"
               }
             }
           }

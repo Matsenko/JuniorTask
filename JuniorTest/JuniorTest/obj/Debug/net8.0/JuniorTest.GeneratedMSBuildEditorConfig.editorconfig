@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JuniorTest
 build_property.RootNamespace = JuniorTest
-build_property.ProjectDir = C:\Users\vovam\source\repos\JuniorTest\JuniorTest\JuniorTest\
+build_property.ProjectDir = C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest\JuniorTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vovam\source\repos\JuniorTest\JuniorTest\JuniorTest
+build_property.MSBuildProjectDirectory = C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest\JuniorTest
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/App.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Pages/Error.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Pages/Home.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Pages/MaterialList.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Pages/MaterialList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNYXRlcmlhbExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Routes.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Shared/EditMaterialButton.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Shared/EditMaterialButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcRWRpdE1hdGVyaWFsQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Shared/NavBar.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Shared/NavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTmF2QmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/_Imports.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vovam/source/repos/JuniorTest/JuniorTest/JuniorTest/Components/Layout/MainLayout.razor]
+[C:/Users/vovam/OneDrive/Рабочий стол/test/JuniorTask/JuniorTest/JuniorTest/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ywjzgosq8k

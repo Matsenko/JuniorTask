@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JuniorTest.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7651e42c1c53df7488e42411229eaefac1338aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("JuniorTest.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JuniorTest.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

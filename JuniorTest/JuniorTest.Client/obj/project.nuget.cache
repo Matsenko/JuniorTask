@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "izFD4dqeIK3LtQfOM+g7Yw1VbggEyTm8xxRoEwFe5blVEGwIPTvEuXdFKuAi4wHVyfE5ybmPVv+429UZLIPWdg==",
+  "dgSpecHash": "/mLZg/7hFaWK6nfLGHYwp/yWpMXWWu7uZbdMN6f3KK6ON3e0Fkcul7875p97kCalELQM+t5TuErXQt7TocoykQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
+  "projectFilePath": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest.Client\\JuniorTest.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vovam\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.2\\microsoft.aspnetcore.authorization.8.0.2.nupkg.sha512",
     "C:\\Users\\vovam\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.2\\microsoft.aspnetcore.components.8.0.2.nupkg.sha512",

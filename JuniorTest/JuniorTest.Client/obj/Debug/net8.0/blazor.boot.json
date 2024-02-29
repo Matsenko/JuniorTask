@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JuniorTest.Client",
   "resources": {
-    "hash": "sha256-buvgGSzMNcQQ1eSK56pSr9+3y7ldphvTmZu2Olqsj7Q=",
+    "hash": "sha256-pzFK6kRUxpcG12ZOSlcwbbnQLaA2+JNkoTqy5QPgra0=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.w7jryuvc1m.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
@@ -212,12 +212,12 @@
       "mscorlib.wasm": "sha256-OH3kXneWqQMz6CUSo6POZqIeMqn9+5RR+IgHn5TnIwA=",
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
-      "JuniorTest.Shared.wasm": "sha256-ldyV35y4yYaJIdG8dW4ayaDdvV2ko+I4pgotyLFglVY=",
-      "JuniorTest.Client.wasm": "sha256-J+ZF+3gBTkmsVpwjWUXtdKEeMspboO/67NCd1x0UILA="
+      "JuniorTest.Shared.wasm": "sha256-0cwDUivvQsf/aHMYb6vQVtX4wwyb3kuW7P93bLeFVc0=",
+      "JuniorTest.Client.wasm": "sha256-HLQGi0+DHDAdPaeurjhwvM4OW0UscbVK6BBLLh9lgVM="
     },
     "pdb": {
-      "JuniorTest.Shared.pdb": "sha256-ZtNJLdkfAZdSfLIduD0wf81HsQ8v8/rJ00YW39s4uCo=",
-      "JuniorTest.Client.pdb": "sha256-9En57lygDVRSia/ti/dC2Vdt8k2gw9HfSex/Dc6uIf0="
+      "JuniorTest.Shared.pdb": "sha256-h2uFG5Np3EDJqxAYuduDhEGIKjMDN03x0OXkiKJTUuM=",
+      "JuniorTest.Client.pdb": "sha256-18NLUwCr2phgzwfjo4OCZsCsskOQFEgeOD5lAgqUNdg="
     }
   },
   "cacheBootResources": true,

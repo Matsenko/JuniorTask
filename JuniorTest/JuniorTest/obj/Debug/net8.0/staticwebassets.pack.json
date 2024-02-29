@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JuniorTest.bundle.scp.css",
+      "Id": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JuniorTest.bundle.scp.css",
       "PackagePath": "staticwebassets\\JuniorTest.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest\\wwwroot\\app.css",
+      "Id": "C:\\Users\\vovam\\OneDrive\\Рабочий стол\\test\\JuniorTask\\JuniorTest\\JuniorTest\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {

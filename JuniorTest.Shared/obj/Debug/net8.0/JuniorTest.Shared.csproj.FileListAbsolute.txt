@@ -10,3 +10,16 @@ C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\Junior
 C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\refint\JuniorTest.Shared.dll
 C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.pdb
 C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\ref\JuniorTest.Shared.dll
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.deps.json
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.dll
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.pdb
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.csproj.AssemblyReference.cache
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.AssemblyInfoInputs.cache
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.AssemblyInfo.cs
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.sourcelink.json
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.dll
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\refint\JuniorTest.Shared.dll
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.pdb
+C:\Users\vovam\OneDrive\Рабочий стол\test\JuniorTask\JuniorTest.Shared\obj\Debug\net8.0\ref\JuniorTest.Shared.dll
