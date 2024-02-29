@@ -1,0 +1,12 @@
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.deps.json
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.dll
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\bin\Debug\net8.0\JuniorTest.Shared.pdb
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.csproj.AssemblyReference.cache
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.AssemblyInfoInputs.cache
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.AssemblyInfo.cs
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.csproj.CoreCompileInputs.cache
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.dll
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\refint\JuniorTest.Shared.dll
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\JuniorTest.Shared.pdb
+C:\Users\vovam\source\repos\JuniorTest\JuniorTest.Shared\obj\Debug\net8.0\ref\JuniorTest.Shared.dll

@@ -1,0 +1,179 @@
+﻿@page "/materials"
+@using JuniorTest.Shared.Entity
+@using JuniorTest.Shared.Services
+@inject IMaterialService MaterialService
+@inject NavigationManager NavigationManager
+@attribute [StreamRendering(true)]
+@rendermode InteractiveServer
+
+<JuniorTest.Components.Shared.NavBar></JuniorTest.Components.Shared.NavBar>
+<style>
+    .mdc-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mdc-list-item {
+        padding: 12px 20px;
+        border-bottom: 1px solid #ccc;
+        transition: background-color 0.3s;
+    }
+
+        .mdc-list-item:last-child {
+            border-bottom: none;
+        }
+
+        .mdc-list-item:hover {
+            background-color: #eee;
+            cursor: pointer;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .custom-select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 8px 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+  
+        .custom-select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .custom-select:hover {
+            border-color: #aaa;
+        }
+
+        .custom-select:focus {
+            outline: none;
+            border-color: #007bff; 
+        }
+</style>
+<div class="container">
+    <input type="text" @bind="searchTerm" placeholder="Search by name" class="custom-select" @oninput="SearchMaterials" />
+
+    @if (materials == null)
+    {
+        <span>Loading...</span>
+    }
+    else if (materials.Count == 0)
+    {
+        <span>No materials found.</span>
+    }
+    else
+    {
+        <ul class="mdc-list">
+            @foreach (var material in displayedMaterials)
+            {
+                <li class="mdc-list-item">@material.DisplayName <JuniorTest.Components.Shared.EditMaterialButton MaterialId="material.Id.GetValueOrDefault()" /></li>
+            }
+        </ul>
+
+        <div>
+            <button @onclick="PreviousPage" disabled="@IsFirstPage" class="btn btn-primary">Previous</button>
+            <span>Page @currentPage of @TotalPages</span>
+            <button @onclick="NextPage" disabled="@IsLastPage" class="btn btn-primary">Next</button>
+        </div>
+
+        <select class="custom-select" @onchange="PageSizeChanged">
+            <option value="5">5 per page</option>
+            <option value="10">10 per page</option>
+            <option value="20">20 per page</option>
+        </select>
+    }
+</div>
+
+@code {
+    List<Material> materials;
+    List<Material> displayedMaterials;
+    int pageSize = 10;
+    int currentPage = 1;
+    bool IsFirstPage => currentPage == 1;
+    bool IsLastPage => currentPage == TotalPages;
+    int TotalPages => (int)Math.Ceiling((double)TotalCount / pageSize);
+    int TotalCount { get; set; }
+    string searchTerm = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadMaterials();
+    }
+
+    private async Task LoadMaterials()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            materials = await MaterialService.GetAllMaterials();
+        }
+        else
+        {
+            materials = await MaterialService.SearchMaterialsByName(searchTerm);
+        }
+
+        TotalCount = materials.Count;
+        UpdateDisplayedMaterials();
+    }
+
+    private void NextPage()
+    {
+        if (!IsLastPage)
+        {
+            currentPage++;
+            UpdateDisplayedMaterials();
+        }
+    }
+
+    private void PreviousPage()
+    {
+        if (!IsFirstPage)
+        {
+            currentPage--;
+            UpdateDisplayedMaterials();
+        }
+    }
+
+    private void UpdateDisplayedMaterials()
+    {
+        displayedMaterials = materials.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+    }
+
+    private async Task PageSizeChanged(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out int newSize))
+        {
+            pageSize = newSize;
+            currentPage = 1;
+            await LoadMaterials();
+        }
+    }
+
+    private async Task SearchMaterials()
+    {
+        currentPage = 1;
+        await LoadMaterials();
+    }
+}

@@ -1,0 +1,158 @@
+﻿@page "/edit-material"
+@page "/edit-material/{id:int}"
+@using JuniorTest.Shared.Entity
+@using JuniorTest.Shared.Services
+@inject IMaterialService MaterialService
+@inject NavigationManager NavigationManager
+@rendermode InteractiveWebAssembly
+
+<style>
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        flex: 0 0 calc(33.33% - 10px);
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .validation-message {
+        color: #dc3545;
+        font-size: 14px;
+    }
+    h3 {
+       display: flex;
+       justify-content: center; 
+    }
+</style>
+<JuniorTest.Components.Shared.NavBar></JuniorTest.Components.Shared.NavBar>
+@if(Id == null){
+ <h3>Create Material</h3>
+}
+  else{
+ <h3>Edit @material.DisplayName</h3>
+}
+<EditForm Model="material" OnSubmit="HandleSubmit">
+    <div class="form-row">
+        <div class="form-group">
+            <label class="form-label">Material Name</label>
+            <InputText @bind-Value="material.DisplayName" class="form-control" required />
+            <ValidationMessage For="@(() => material.DisplayName)" class="validation-message" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">Item Code</label>
+            <InputText @bind-Value="material.ItemCode" class="form-control" required />
+            <ValidationMessage For="@(() => material.ItemCode)" class="validation-message" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label class="form-label">Item Type</label>
+            <InputText @bind-Value="material.ItemType" class="form-control" required />
+            <ValidationMessage For="@(() => material.ItemType)" class="validation-message" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">HSN</label>
+            <InputText @bind-Value="material.HSN" class="form-control" required />
+            <ValidationMessage For="@(() => material.HSN)" class="validation-message" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">CGST</label>
+            <InputNumber @bind-Value="material.CGST" class="form-control" required />
+            <ValidationMessage For="@(() => material.CGST)" class="validation-message" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label class="form-label">Unit Price</label>
+            <InputNumber @bind-Value="material.UnitPrice" class="form-control" required />
+            <ValidationMessage For="@(() => material.UnitPrice)" class="validation-message" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">SGST</label>
+            <InputNumber @bind-Value="material.SGST" class="form-control" required />
+            <ValidationMessage For="@(() => material.SGST)" class="validation-message" />
+        </div>
+        <div class="form-group">
+            <label class="form-label">IGST</label>
+            <InputNumber @bind-Value="material.IGST" class="form-control" required />
+            <ValidationMessage For="@(() => material.IGST)" class="validation-message" />
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group">
+            <label class="form-label">Department</label>
+            <InputText @bind-Value="material.Department" class="form-control" required />
+            <ValidationMessage For="@(() => material.Department)" class="validation-message" />
+        </div>
+    </div>
+    <button @onclick="HandleSubmit" type="submit" class="btn btn-primary">Submit</button>
+    @if(Id != null)
+    {
+        <button @onclick="deleteGame" type ="button" class="btn btn-primary">Delete</button>
+    }
+  
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    [SupplyParameterFromForm]
+    Material material { get; set; } = new Material();
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id.HasValue)
+        {
+            material = await MaterialService.GetMaterialById((int)Id.Value);
+        }
+    }
+    async Task HandleSubmit()
+    {
+        if(Id == null)
+        {
+            await MaterialService.AddMaterial(material);
+            NavigationManager.NavigateTo("/materials");
+        }
+        else
+        {
+            await MaterialService.EditMaterial((int)Id.Value,material);
+            NavigationManager.NavigateTo("/materials");
+        }
+
+    }
+    async Task deleteGame()
+    {
+        await MaterialService.DeleteMaterial((int)Id.Value);
+        NavigationManager.NavigateTo("/materials");
+    }
+}

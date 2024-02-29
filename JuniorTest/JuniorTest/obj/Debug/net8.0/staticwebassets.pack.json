@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JuniorTest.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JuniorTest.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\vovam\\source\\repos\\JuniorTest\\JuniorTest\\JuniorTest\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JuniorTest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.JuniorTest.props",
+      "PackagePath": "build\\JuniorTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.JuniorTest.props",
+      "PackagePath": "buildMultiTargeting\\JuniorTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.JuniorTest.props",
+      "PackagePath": "buildTransitive\\JuniorTest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

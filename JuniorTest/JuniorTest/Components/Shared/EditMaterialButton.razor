@@ -1,0 +1,11 @@
+﻿@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+<button   class="btn-primary" @onclick="EditMaterial">Edit Material</button>
+@code {
+[Parameter]
+public int MaterialId { get; set; }
+void EditMaterial()
+{
+    NavigationManager.NavigateTo($"/edit-material/{MaterialId}");
+}
+}
